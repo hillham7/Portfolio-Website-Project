@@ -1,8 +1,53 @@
+:root {
+  --background-gradient: radial-gradient(
+    circle at 10% 20%,
+    rgb(255, 246, 236) 39.5%,
+    rgba(100, 46, 122, 0.23) 100.2%
+  );
+  --h1-font: "Roboto Slab", serif;
+  --h2-font: "RocknRoll One", sans-serif;
+}
+
+body {
+  background: var(--background-gradient);
+}
+
+.homepage {
+  text-align: center;
+}
+
+.emoji {
+  margin-top: 70px;
+}
+
 h1 {
-  font-family: "Roboto Slab", serif;
-  font-weight: 500px;
+  font-family: var(--h1-font);
+  font-weight: bolder;
+  font-size: 60px;
+  margin-top: 50px;
+}
+
+h2 {
+  font-family: var(--h2-font);
+  font-weight: normal;
+  font-size: 30px;
 }
 
 p {
-  font-family: "RocknRoll One", sans-serif;
+  font-family: var(--h2-font);
+  font-weight: normal;
+}
+
+.about {
+  font-family: var(--h2-font);
+  font-weight: bolder;
+}
+
+.btn-info {
+  font-weight: bold;
+  font-family: var(--h2-font);
+  border-radius: 4px;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 10px 10px;
 }
