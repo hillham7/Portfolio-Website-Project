@@ -55,7 +55,7 @@ p {
   padding: 10px 10px;
 }
 
-.footer {
+.home-footer {
   margin-top: 100px;
 }
 
@@ -82,4 +82,16 @@ p {
 .img-fluid {
   border-radius: 5px;
   max-width: 50%;
+}
+
+.contact-page {
+  text-align: center;
+}
+
+.get-in-touch {
+  margin-top: 50px;
+}
+
+.contact-footer {
+  margin-top: 30px;
 }
