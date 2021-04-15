@@ -84,6 +84,11 @@ p {
   max-width: 50%;
 }
 
+.shecodes-link {
+  text-align: center;
+  font-size: 20px;
+}
+
 .contact-page {
   text-align: center;
 }
