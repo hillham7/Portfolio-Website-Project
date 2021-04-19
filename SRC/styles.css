@@ -114,9 +114,13 @@ p {
   transition: all 100ms ease-in-out;
 }
 
+.source-code {
+  font-size: 15px;
+}
+
 .img-fluid {
   border-radius: 5px;
-  max-width: 50%;
+  max-width: 100%;
 }
 
 .text-center {
