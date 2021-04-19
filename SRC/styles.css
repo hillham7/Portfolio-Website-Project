@@ -123,6 +123,14 @@ p {
   max-width: 100%;
 }
 
+.img-fluid-projects {
+  max-width: 60%;
+}
+
+.img-fluid-headshot {
+  max-width: 55%;
+}
+
 .text-center {
   font-weight: bolder;
 }
